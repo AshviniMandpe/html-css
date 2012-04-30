@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>Personal Wallet</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript">
+/**$(function(){
+	$("li.button").click(function(){
+		$("li.button").removeClass("active-class");
+		var href = $(this).children("a").attr("href");
+		$("#right").empty();
+		$("#right").load(href);
+		$(this).addClass("active-class");
+		return false;
+		
+	});
+});**/
+</script>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		Personal Wallet
+	</div>
+	<div id="content">
+		<div id="left"><ul>
+			<li class = "button"><a href="home.html">PROFILE</a></li><br/>
+			<li class = "button"><a id = "activelink" href="contacts.html">CONTACTS</a></li><br/>
+			<li class = "button"><a href="mediplus.html">MEDIPLUS</a></li><br/>
+			<li class = "button"><a href="accounts.html">ACCOUNTS</a></li><br/>
+			<li class = "active-class"><a href="memories.html">MEMORIES</a></li><br/>
+			<li class = "button"><a href="todolist.html">TO DO LIST</a></li></ul>
+		</div>
+		<div id="right">
+		 <div><img src = "thumb3.jpg"/></div><div id="imgbottom"><img src = "images.jpg"/></div>
+		</div>
+	</div>
+	<div id="footerbg">
+		<div id="footer">
+			<a href="home.html">HOME</a> | 
+			<a href="home.html">FEEDBACK</a> | 
+			<a href="home.html">HELP</a> | 
+			<a href="home.html">CONTACT US</a>				
+		</div>
+	</div>
+</div>
+</body>
+</html>
